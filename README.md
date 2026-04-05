@@ -2,6 +2,10 @@
 
 Mega Blog is a React + TypeScript blogging app powered by Appwrite. It includes authentication, protected routes, post creation and editing, image uploads, a rich text editor, and a persisted light/dark theme.
 
+## Live Demo
+
+🚀 **[Visit the app](https://gitesh152-mega-blog.netlify.app)**
+
 ## Features
 
 - Email/password signup and login with Appwrite authentication
@@ -29,15 +33,15 @@ Mega Blog is a React + TypeScript blogging app powered by Appwrite. It includes 
 
 ## App Routes
 
-| Route | Access | Purpose |
-| --- | --- | --- |
-| `/` | Public shell, personalized content after login | Home page |
-| `/login` | Guest only | Login form |
-| `/signup` | Guest only | Signup form |
-| `/all-posts` | Auth required | Logged-in user's active posts |
-| `/add-post` | Auth required | Create a new post |
-| `/edit-post/:slug` | Auth required | Edit an existing post |
-| `/post/:slug` | Public route | View a single post |
+| Route              | Access                                         | Purpose                       |
+| ------------------ | ---------------------------------------------- | ----------------------------- |
+| `/`                | Public shell, personalized content after login | Home page                     |
+| `/login`           | Guest only                                     | Login form                    |
+| `/signup`          | Guest only                                     | Signup form                   |
+| `/all-posts`       | Auth required                                  | Logged-in user's active posts |
+| `/add-post`        | Auth required                                  | Create a new post             |
+| `/edit-post/:slug` | Auth required                                  | Edit an existing post         |
+| `/post/:slug`      | Public route                                   | View a single post            |
 
 ## Project Structure
 
